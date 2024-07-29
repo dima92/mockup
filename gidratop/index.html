@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gidratop</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header-section">
+  <div class="container">
+    <div class="header">
+      <div class="header-logo">
+        <img class="header-logo__img" src="img/logo.svg" alt="Gidratop Logo">
+      </div>
+      <nav class="nav-main">
+        <ul class="nav-main__list">
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">О нас</a>
+          </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">Производители</a>
+          </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">Гарантии и возврат</a>
+          </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">Доставка</a>
+          </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">Оплата</a>
+          </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-auth">
+        <img class="header-auth__img" src="img/avatar.svg" alt="Auth Logo">
+        <a class="header-auth__btn" href="#">Вход / Регистрация</a>
+      </div>
+    </div>
+    <div class="header-catalog">
+      <div class="header-catalog__block">
+        <img class="header-catalog__img" src="img/catalog.svg" alt="Catalog">
+        <span class="header-catalog__span">Каталог товаров</span>
+      </div>
+      <form>
+        <input class="header-catalog__search" type="text" placeholder="Поиск товаров и брендов">
+        <button class="header-catalog__search-img" type="submit"></button>
+      </form>
+      <div class="header-catalog__contacts">
+        <span class="header-catalog__contact">8-800-000-00-00</span>
+        <span class="header-catalog__text">Вам перезвонить?</span>
+      </div>
+      <ul class="header-catalog__list">
+        <li class="header-catalog__item">
+          <img class="header-catalog__logo" src="img/favorite.svg" alt="Catalog Logo">
+          <a class="header-catalog__link" href="#">Избранное</a>
+        </li>
+        <li class="header-catalog__item">
+          <img class="header-catalog__logo" src="img/poll.svg" alt="Catalog Logo">
+          <a class="header-catalog__link" href="#">Сравнение</a>
+        </li>
+        <li class="header-catalog__item">
+          <img class="header-catalog__logo" src="img/cart.svg" alt="Catalog Logo">
+          <a class="header-catalog__link" href="#">Корзина</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<main>
+  <section id="banner-section">
+    <div class="banner__img">
+      <div class="banner__wrap">
+        <p class="banner__text">Скидки на мебель для ванной комнаты
+          <span>до 10%</span>
+        </p>
+        <button class="banner__btn">Подробнее</button>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="slider_item active"></div>
+      <div class="slider_item"></div>
+      <div class="slider_item"></div>
+      <div class="slider_item"></div>
+      <div class="slider_item"></div>
+      <div class="slider_item"></div>
+    </div>
+  </section>
+  <section class="stock-section">
+    <div class="container">
+      <div class="stock">
+        <h2 class="stock-title">Акции</h2>
+        <span class="stock__text">Все акции</span>
+      </div>
+      <div class="stock-items">
+        <div class="stock-item">
+          <img class="stock-item__img" src="img/stock_1.png" alt="Stock">
+        </div>
+        <div class="stock-item">
+          <img class="stock-item__img" src="img/stock_2.png" alt="Stock">
+        </div>
+        <div class="stock-item">
+          <img class="stock-item__img" src="img/stock_3.png" alt="Stock">
+        </div>
+      </div>
+      <div class="stock-sliders">
+        <img class="stock-sliders_left" src="img/arrow_left.svg" alt="Arrow">
+        <div class="slider_item active"></div>
+        <div class="slider_item"></div>
+        <div class="slider_item"></div>
+        <div class="slider_item"></div>
+        <div class="slider_item"></div>
+        <div class="slider_item"></div>
+        <img class="stock-sliders_right" src="img/arrow.svg" alt="Arrow">
+      </div>
+      <div class="products">
+        <div class="products__items">
+          <div class="product__item">ХИТЫ ПРОДАЖ</div>
+          <div class="product__item">НОВИНКИ</div>
+          <div class="product__item">% СКИДКИ</div>
+        </div>
+      </div>
+      <div class="products__views">
+        <div class="product__view">Все</div>
+        <div class="product__view">Ванны</div>
+        <div class="product__view">Душ</div>
+        <div class="product__view">Душевые углы и ограждения</div>
+        <div class="product__view">Мебель для ванных комнат</div>
+        <div class="product__view">Полотенцесушители</div>
+        <div class="product__view">Санфаянс</div>
+        <div class="product__view">Смесители</div>
+        <div class="product__view">Аксессуары</div>
+        <div class="product__view">Системы инсталяции</div>
+      </div>
+      <div class="products_card">
+        <div class="product__card">
+          <div class="product__card-top-wrapper">
+            <button class="product__card-sell">Хит продаж</button>
+            <img src="img/Duofix%201.png" alt="" class="product__card-img">
+          </div>
+          <p class="product__card-text">Наименование</p>
+          <p class="product__card-brand">Бренд:</p>
+          <p class="product__card-country">Страна:</p>
+          <p class="product__card-prz">В наличии</p>
+          <p class="product__card-price">15 000 ₽</p>
+          <div class="product__card-wrapper">
+            <button class="product__card-btn">В корзину</button>
+            <img src="img/favorite.svg" alt="favorite" class="product__card-favorite">
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="product__card-top-wrapper">
+            <button class="product__card-sell">Хит продаж</button>
+            <img src="img/insta.png" alt="" class="product__card-img">
+          </div>
+          <p class="product__card-text">Наименование</p>
+          <p class="product__card-brand">Бренд:</p>
+          <p class="product__card-country">Страна:</p>
+          <p class="product__card-prz">В наличии</p>
+          <p class="product__card-price">15 000 ₽</p>
+          <div class="product__card-wrapper">
+            <button class="product__card-btn">В корзину</button>
+            <img src="img/favorite.svg" alt="favorite" class="product__card-favorite">
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="product__card-top-wrapper">
+            <button class="product__card-sell">Хит продаж</button>
+            <img src="img/Sigma10%201.png" alt="" class="product__card-img img-center">
+          </div>
+          <p class="product__card-text">Наименование</p>
+          <p class="product__card-brand">Бренд:</p>
+          <p class="product__card-country">Страна:</p>
+          <p class="product__card-prz">В наличии</p>
+          <p class="product__card-price">15 000 ₽</p>
+          <div class="product__card-wrapper">
+            <button class="product__card-btn">В корзину</button>
+            <img src="img/favorite.svg" alt="favorite" class="product__card-favorite">
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="product__card-top-wrapper">
+            <button class="product__card-sell">Хит продаж</button>
+            <img src="img/image004%201.png" alt="" class="product__card-img img-center-top">
+          </div>
+          <p class="product__card-text">Наименование</p>
+          <p class="product__card-brand">Бренд:</p>
+          <p class="product__card-country">Страна:</p>
+          <p class="product__card-prz">В наличии</p>
+          <p class="product__card-price">15 000 ₽</p>
+          <div class="product__card-wrapper">
+            <button class="product__card-btn">В корзину</button>
+            <img src="img/favorite.svg" alt="favorite" class="product__card-favorite">
+          </div>
+        </div>
+      </div>
+      <div class="product__card-load">
+        <button class="product__card-load-btn">ЗАГРУЗИТЬ ЕЩЕ</button>
+      </div>
+    </div>
+    <div class="wrapper-bg">
+      <img class="wrapper-bg__img" src="img/bg.png" alt="Background">
+      <div class="wrapper-bg__left">
+        <div class="wrapper-bg__text"><span>2К</span> <br/>наименований <br/>продукции</div>
+        <div class="wrapper-bg__text"><span>30</span> <br/>брендов <br/>работают с нами</div>
+      </div>
+      <div class="wrapper-bg__right">
+        <div class="wrapper-bg__title">Мы не просто продаем товары для ванной - мы помогаем вам найти лучшее решение.
+        </div>
+        <ul class="wrapper-bg__list">
+          <li class="wrapper-bg__item">
+            <img class="wrapper-bg__icon" src="img/transport.svg" alt="Icon">
+            <div class="wrapper-bg__subtitle">ДОСТАВКА</div>
+            <div class="wrapper-bg__desc">Доставим товар в удобное для вас время</div>
+          </li>
+          <li class="wrapper-bg__item">
+            <img class="wrapper-bg__icon" src="img/car.svg" alt="Icon">
+            <div class="wrapper-bg__subtitle">САМОВЫВОЗ</div>
+            <div class="wrapper-bg__desc">Вы можете самостоятельно забрать заказ в пункте самовывоза.</div>
+          </li>
+          <li class="wrapper-bg__item">
+            <img class="wrapper-bg__icon" src="img/dashboard.svg" alt="Icon">
+            <div class="wrapper-bg__subtitle">ШИРОКИЙ АССОРТИМЕНТ ТОВАРОВ</div>
+            <div class="wrapper-bg__desc">У нас найдется все.</div>
+          </li>
+          <li class="wrapper-bg__item">
+            <img class="wrapper-bg__icon" src="img/support.svg" alt="Icon">
+            <div class="wrapper-bg__subtitle">КЛИЕНТСКИЙ СЕРВИС</div>
+            <div class="wrapper-bg__desc">Оказываем поддержку на всех этапах покупки товара</div>
+          </li>
+          <li class="wrapper-bg__item">
+            <img class="wrapper-bg__icon" src="img/thumb-up.svg" alt="Icon">
+            <div class="wrapper-bg__subtitle">ГАРАНТИЯ КАЧЕСТВА</div>
+            <div class="wrapper-bg__desc">Соответствуем требованиям и стандартам качества</div>
+          </li>
+          <li class="wrapper-bg__item">
+            <img class="wrapper-bg__icon" src="img/action.svg" alt="Icon">
+            <div class="wrapper-bg__subtitle">АКЦИИ И СКИДКИ</div>
+            <div class="wrapper-bg__desc">Постоянным клиентам акции и скидки</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
